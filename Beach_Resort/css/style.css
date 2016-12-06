@@ -106,3 +106,108 @@ body {
 .footer .ft-contact {
   float: right;
 }
+.wrapper-inr {
+  width: 860px;
+  margin: 0 auto;
+}
+/* ------common------- */
+
+.beach-inr {
+  width: 775px;
+  padding: 50px;
+}
+.beach-inr h1,.room-box .room-right h2 {
+  color: #316e66;
+  font-size: 30px;
+}
+.room-box li {
+  border-bottom: 1px solid #884535;
+  padding: 32px 0;
+  position: relative;
+}
+.room-box .room-left {
+  float: left;
+  width: 398px;
+}
+.room-box .room-left img {
+  border: 1px solid #2c9688;
+}
+.room-box .room-right {
+  float: right;
+  width: 360px;
+  text-align: justify;
+  font-size: 15px;
+}
+.room-box .room-right h2 {
+  text-align: left;
+  margin-bottom: 40px;
+}
+.room-box .room-right p,.room-box .room-right a {
+  color: #884535;
+  line-height: 1.7;
+  padding: 0 0 24px 0;
+}
+.room-box .room-right .rate {
+  display: inline-block;
+  width: 140px;
+  border: 1px solid #884535;
+  text-align: center;
+  position: absolute;
+  bottom: 32px;
+  color: #2c9688;
+  padding: 10px 0;
+}
+/*------- start of kppw01------ */
+
+.sec01 {
+  border-bottom: 1px solid #bbb;
+}
+
+.sec01 h1 {
+  font-size: 30px;
+  color: #316e66;
+  margin-bottom: 18px;
+}
+
+.sec01 h2 {
+  text-transform: uppercase;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+.sec01 p,
+.sec02 p {
+  font-size: 15px;
+  color: #5a4535;
+  padding-bottom: 25px;
+  line-height: 30px;
+}
+.sec01 p>a,
+.sec02 p>a {
+  color: #5a4535;
+}
+
+.sec02 {
+  padding-top: 30px;
+}
+
+.sec02 h2 {
+  font-size: 22px;
+  padding-bottom: 30px;
+}
+
+.sec02-left {
+  width: 440px;
+  float: left;
+  border-right: 1px solid #bbb;
+  padding-right: 40px;
+}
+
+.sec02-right {
+  float: left;
+  width: 270px;
+  padding-left: 20px;
+}
+/* .sec02-right h2 {
+  padding-left: 20px;
+} */
+
