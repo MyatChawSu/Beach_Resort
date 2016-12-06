@@ -11,3 +11,53 @@ body {
   font-size: 0;
   visibility: hidden;
 }
+.wrapper-inr {
+  width: 860px;
+  margin: 0 auto;
+}
+
+.beach-inr {
+  width: 775px;
+  padding: 50px;
+}
+.beach-inr h1,.room-box .room-right h2 {
+  color: #316e66;
+  font-size: 30px;
+}
+.room-box li {
+  border-bottom: 1px solid #884535;
+  padding: 32px 0;
+  position: relative;
+}
+.room-box .room-left {
+  float: left;
+  width: 398px;
+}
+.room-box .room-left img {
+  border: 1px solid #2c9688;
+}
+.room-box .room-right {
+  float: right;
+  width: 360px;
+  text-align: justify;
+  font-size: 15px;
+}
+.room-box .room-right h2 {
+  text-align: left;
+  margin-bottom: 40px;
+}
+.room-box .room-right p,.room-box .room-right a {
+  color: #884535;
+  line-height: 1.7;
+  padding: 0 0 24px 0;
+}
+.room-box .room-right .rate {
+  display: inline-block;
+  width: 140px;
+  border: 1px solid #884535;
+  text-align: center;
+  position: absolute;
+  bottom: 32px;
+  color: #2c9688;
+  padding: 10px 0;
+}
