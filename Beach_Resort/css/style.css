@@ -14,13 +14,8 @@ body {
 .wrapper-inr {
   width: 860px;
   margin: 0 auto;
-/* ------common------- */
-
-.wrapper-inr {
-  width: 860px;
-  margin: 0 auto;
-  background: #fff;
 }
+/* ------common------- */
 
 .beach-inr {
   width: 775px;
