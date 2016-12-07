@@ -57,6 +57,7 @@ body {
 .banner {
   margin-bottom: 35px;
   border: 5px solid #fff;
+  box-sizing: border-box;
 }
 .banner img {
   width: 100%;
@@ -133,7 +134,7 @@ body {
 }
 .room-box .room-right {
   float: right;
-  width: 360px;
+  width: 340px;
   text-align: justify;
   font-size: 15px;
 }
