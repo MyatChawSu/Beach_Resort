@@ -144,7 +144,6 @@ body {
 }
 .room-box li:last-child {
   border-bottom: none;
-  padding: 32px 0 0 0;
 }
 .room-box .room-left {
   float: left;
