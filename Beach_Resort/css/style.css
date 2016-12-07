@@ -15,11 +15,6 @@ body {
   width: 100%;
   background: url(../images/bg-pattern.jpg) repeat;
 }
-.inr {
-  width: 860px;
-  margin: 0 auto;
-}
-
 /* header-logo */
 .logo {
   padding: 25px 0;
@@ -115,6 +110,7 @@ body {
 .beach-inr {
   width: 775px;
   padding: 50px;
+  background: #fff;
 }
 .beach-inr h1,.room-box .room-right h2 {
   color: #316e66;
