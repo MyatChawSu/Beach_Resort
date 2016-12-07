@@ -116,7 +116,7 @@ body {
   margin-bottom: 30px;
 }
 .beach-inr {
-  padding: 50px;
+  padding: 39px 50px;
   background: #fff;
 }
 .beach-inr h1,.room-box .room-right h2 {
@@ -133,25 +133,30 @@ body {
 }
 .room-box li:last-child {
   border-bottom: none;
+  padding: 32px 0 0 0;
 }
 .room-box .room-left {
   float: left;
-  width: 398px;
+  width: 340px;
+  margin-right: 20px;
 }
 .room-box .room-left img {
   border: 1px solid #2c9688;
 }
-.room-box .room-right {
+.room .room-box .room-right {
   float: right;
+}
+.room-box .room-right {
+  float: left;
   width: 340px;
   text-align: justify;
   font-size: 15px;
 }
-.room-box .room-right h2 {
+.room-box h2 {
   text-align: left;
   margin-bottom: 23px;
 }
-.room-box .room-right p,.room-box .room-right a {
+.room-box p,.room-box a {
   color: #884535;
   line-height: 1.7;
   padding: 0 0 24px 0;
