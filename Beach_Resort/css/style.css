@@ -310,3 +310,25 @@ body {
  }
 
 
+/* for contact */
+.beach-body .contact-left {
+  float: left;
+  width: 300px;
+}
+.contact-left h2 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+.contact-left ul li {
+  margin-bottom: 20px;
+}
+.contact-left ul li p {
+  font-size: 16px;
+}
+.contact-left ul li span {
+  font-size: 12px;
+}
+.beach-body .contact-right {
+  float: left;
+  width: 460px;
+}
