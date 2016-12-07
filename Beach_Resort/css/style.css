@@ -107,6 +107,10 @@ body {
 .footer .ft-contact {
   float: right;
 }
+.ft-contact ul li {
+  float: left;
+  margin-right: 10px;
+}
 .wrapper-inr {
   width: 860px;
   margin: 0 auto;
