@@ -166,13 +166,15 @@ body {
   color: #2c9688;
   padding: 10px 0;
 }
+
 /*------- start of kppw01------ */
 
 .sec01 {
   border-bottom: 1px solid #bbb;
 }
 
-.sec01 h1 {
+.sec01 h1,
+.sec01-food h1 {
   font-size: 30px;
   color: #316e66;
   margin-bottom: 18px;
@@ -216,7 +218,12 @@ body {
   width: 270px;
   padding-left: 20px;
 }
-/* .sec02-right h2 {
-  padding-left: 20px;
-} */
 
+/*------- start of foods --------*/
+
+.sec01-food {
+  font-size: 30px;
+}
+.foods {
+
+}
