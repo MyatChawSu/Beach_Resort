@@ -79,7 +79,7 @@ body {
 /* footer */
 .footer {
   background: #AC9E94;
-  padding: 10px 0;
+  padding: 10px 0 0 0;
 }
 .footer .ft-menu {
   width: 600px;
@@ -104,6 +104,7 @@ body {
 .ft-menu ul li a.ft-menu-active:hover {
   color: #fff;
 }
+
 .footer .ft-contact {
   float: right;
 }
@@ -116,6 +117,11 @@ body {
   margin: 0 auto;
 }
 /* ------common------- */
+.copy-txt {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
 .beach-body {
   margin-bottom: 30px;
 }
