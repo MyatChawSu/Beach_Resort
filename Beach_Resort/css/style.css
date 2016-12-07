@@ -120,7 +120,7 @@ body {
 }
 .beach-inr h1,.room-box .room-right h2 {
   color: #316e66;
-  font-size: 30px;
+  font-size: 22px;
 }
 .room-box li {
   border-bottom: 1px solid #884535;
@@ -145,7 +145,7 @@ body {
 }
 .room-box .room-right h2 {
   text-align: left;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .room-box .room-right p,.room-box .room-right a {
   color: #884535;
