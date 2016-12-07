@@ -13,7 +13,8 @@ body {
 }
 #wrapper {
   width: 100%;
-  background: url(../images/bg-pattern.jpg) repeat;
+  background: url(../images/bg-pattern.jpg) repeat-x;
+  padding-bottom: 100px;
 }
 /* header-logo */
 .logo {
@@ -53,6 +54,7 @@ body {
 .banner {
   margin-bottom: 35px;
   border: 5px solid #fff;
+  box-sizing: border-box;
 }
 .banner img {
   width: 100%;
@@ -129,7 +131,7 @@ body {
 }
 .room-box .room-right {
   float: right;
-  width: 360px;
+  width: 340px;
   text-align: justify;
   font-size: 15px;
 }
