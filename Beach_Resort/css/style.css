@@ -80,6 +80,7 @@ body {
 .footer {
   background: #AC9E94;
   padding: 10px 0 0 0;
+  margin-bottom: 20px;
 }
 .footer .ft-menu {
   width: 600px;
@@ -136,6 +137,7 @@ body {
 .room-box .room-left {
   float: left;
   width: 340px;
+  margin-right: 25px;
 }
 .room-box .room-right h2 {
   font-size: 22px;
@@ -143,12 +145,11 @@ body {
 .room-box li {
   border-bottom: 1px solid #884535;
   padding: 32px 0;
-  position: relative;
 }
 .room-box li:last-child {
   border-bottom: none;
+  padding: 32px 0 0 0;
 }
-.room-box 
 .room-box .room-left {
   float: left;
   width: 340px;
@@ -170,10 +171,19 @@ body {
   text-align: left;
   margin-bottom: 23px;
 }
+.room-box p {
+  position: relative;
+}
 .room-box p,.room-box a {
   color: #884535;
   line-height: 1.7;
   padding: 0 0 24px 0;
+}
+.dive .room-box .last {
+  padding: 0;
+}
+.room .room-box p {
+  padding: 0 0 51px 0;
 }
 .room-box .room-right .rate {
   display: inline-block;
@@ -181,7 +191,6 @@ body {
   border: 1px solid #884535;
   text-align: center;
   position: absolute;
-  bottom: 32px;
   color: #2c9688;
   padding: 10px 0;
 }
