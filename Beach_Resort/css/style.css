@@ -62,7 +62,7 @@ body {
 .banner img {
   width: 100%;
 }
-/* content for index */
+/* content  */
 .content h2 {
   color: #316e66;
   font-size: 26px;
@@ -75,17 +75,6 @@ body {
 }
 .content p a {
   color: #5a4535;
-}
-.ctn-blog .blog-left {
-  float: left;
-  width: 560px;
-}
-.blog-left .blog-box {
-  background: #fff;
-  border-radius: 2px;
-}
-.ctn-blog .blog-img {
-  float: right;
 }
 /* footer */
 .footer {
@@ -144,8 +133,8 @@ body {
 }
 .room-box li:last-child {
   border-bottom: none;
-  padding: 32px 0 0 0;
 }
+.room-box 
 .room-box .room-left {
   float: left;
   width: 340px;
@@ -182,15 +171,13 @@ body {
   color: #2c9688;
   padding: 10px 0;
 }
-
 /*------- start of kppw01------ */
 
 .sec01 {
   border-bottom: 1px solid #bbb;
 }
 
-.sec01 h1,
-.sec01-food h1 {
+.sec01 h1 {
   font-size: 30px;
   color: #316e66;
   margin-bottom: 18px;
@@ -234,12 +221,44 @@ body {
   width: 270px;
   padding-left: 20px;
 }
-
-/*------- start of foods --------*/
-
-.sec01-food {
-  font-size: 30px;
+.ctn-blog {
+  margin-top: 20px;
 }
-.foods h2 {
-
+.ctn-blog .blog-left {
+  float: left;
+  width: 560px;
 }
+.blog-left .blog-box {
+  background: #fff;
+  border-radius: 2px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.col-green {
+  color: #2c9688;
+}
+.blog-box h3 {
+  padding-bottom: 10px;
+  border-bottom: 1px dotted #000;
+}
+.blog-box p span {
+  float: right;
+}
+.blog-box .sub-box {  
+  border-bottom: 1px dotted #000;
+}
+.sub-box a {  
+  text-decoration: none;
+  color: #5a4535;
+  font-size: 22px;
+  display: block;
+}
+.sub-box span {
+  font-size: 14px;
+}
+
+.ctn-blog .blog-img {
+  float: right;
+}
+
+
