@@ -76,6 +76,9 @@ body {
 .content p a {
   color: #5a4535;
 }
+.ctn-blog {
+  margin-top: 20px;
+}
 .ctn-blog .blog-left {
   float: left;
   width: 560px;
@@ -83,14 +86,40 @@ body {
 .blog-left .blog-box {
   background: #fff;
   border-radius: 2px;
+  padding: 10px;
+  margin-bottom: 20px;
 }
+.col-green {
+  color: #2c9688;
+}
+.blog-box h3 {
+  padding-bottom: 10px;
+  border-bottom: 1px dotted #000;
+}
+.blog-box p span {
+  float: right;
+}
+.blog-box .sub-box {  
+  border-bottom: 1px dotted #000;
+}
+.sub-box a {  
+  text-decoration: none;
+  color: #5a4535;
+  font-size: 22px;
+  display: block;
+  margin-bottom: -10px;
+}
+.sub-box span {
+  font-size: 14px;
+}
+
 .ctn-blog .blog-img {
   float: right;
 }
 /* footer */
 .footer {
   background: #AC9E94;
-  padding: 10px 0;
+  padding: 10px 0 0 0;
 }
 .footer .ft-menu {
   width: 600px;
@@ -105,7 +134,7 @@ body {
 .ft-menu ul li a {
   text-decoration: none;
   color: #6d6157;
-  font-size: 16px;
+  font-size: 14px;
   text-transform: uppercase;
 }
 .ft-menu ul li a:hover {
@@ -117,6 +146,10 @@ body {
 }
 .footer .ft-contact {
   float: right;
+}
+.ft-contact ul li {
+  float: left;
+  margin-right: 20px;
 }
 .wrapper-inr {
   width: 860px;
