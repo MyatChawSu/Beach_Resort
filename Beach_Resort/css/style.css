@@ -271,4 +271,27 @@ body {
 
 /* start of foods */
 
+.sec01-food h1 {
+  margin-bottom: 20px;
+}
+
+.foods li {
+  padding-bottom: 20px;
+}
+
+.foods h2 {
+  font-size: 22px;
+  color: #316e66;
+  padding: 20px 0 30px 0;
+}
+
+.foods a img:hover {
+  color: #fff;
+  opacity: .4;
+}
+
+ .foods .bdtop {
+  border-top: 1px solid #b7b7b7;
+ }
+
 
