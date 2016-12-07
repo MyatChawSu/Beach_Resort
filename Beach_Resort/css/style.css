@@ -111,7 +111,9 @@ body {
   margin: 0 auto;
 }
 /* ------common------- */
-
+.beach-body {
+  margin-bottom: 30px;
+}
 .beach-inr {
   padding: 50px;
   background: #fff;
@@ -124,6 +126,9 @@ body {
   border-bottom: 1px solid #884535;
   padding: 32px 0;
   position: relative;
+}
+.room-box li:last-child {
+  border-bottom: none;
 }
 .room-box .room-left {
   float: left;
