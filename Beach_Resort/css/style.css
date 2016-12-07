@@ -89,6 +89,7 @@ body {
   float: left;
   text-align: center;
   padding: 0 10px;
+  font-family: Arial;
 }
 .ft-menu ul li a {
   text-decoration: none;
