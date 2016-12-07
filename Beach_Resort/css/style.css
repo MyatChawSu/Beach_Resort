@@ -62,7 +62,7 @@ body {
 .banner img {
   width: 100%;
 }
-/* content  */
+/* content for index */
 .content h2 {
   color: #316e66;
   font-size: 26px;
@@ -75,6 +75,17 @@ body {
 }
 .content p a {
   color: #5a4535;
+}
+.ctn-blog .blog-left {
+  float: left;
+  width: 560px;
+}
+.blog-left .blog-box {
+  background: #fff;
+  border-radius: 2px;
+}
+.ctn-blog .blog-img {
+  float: right;
 }
 /* footer */
 .footer {
