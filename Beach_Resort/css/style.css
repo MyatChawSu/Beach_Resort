@@ -57,6 +57,7 @@ body {
 .banner {
   margin-bottom: 35px;
   border: 5px solid #fff;
+  box-sizing: border-box;
 }
 .banner img {
   width: 100%;
@@ -110,9 +111,10 @@ body {
   margin: 0 auto;
 }
 /* ------common------- */
-
+.beach-body {
+  margin-bottom: 30px;
+}
 .beach-inr {
-  width: 775px;
   padding: 50px;
   background: #fff;
 }
@@ -125,6 +127,9 @@ body {
   padding: 32px 0;
   position: relative;
 }
+.room-box li:last-child {
+  border-bottom: none;
+}
 .room-box .room-left {
   float: left;
   width: 398px;
@@ -134,7 +139,7 @@ body {
 }
 .room-box .room-right {
   float: right;
-  width: 360px;
+  width: 340px;
   text-align: justify;
   font-size: 15px;
 }
@@ -199,7 +204,7 @@ body {
   width: 440px;
   float: left;
   border-right: 1px solid #bbb;
-  padding-right: 40px;
+  padding-right: 29px;
 }
 
 .sec02-right {
